@@ -1,0 +1,359 @@
+@media (max-width: 1220px) {
+
+    // popular
+
+    .popular__item {
+        width        : 50%;
+        margin-bottom: 50px;
+    }
+
+    .popular__img {
+        width : 400px;
+        height: 400px;
+    }
+
+    // best
+
+    .best {
+        min-height: 80vh;
+    }
+}
+
+@media (max-width: 1140px) {
+
+    // about
+
+    .about__inner {
+        flex-wrap      : wrap;
+        justify-content: space-around;
+    }
+
+    .reviews {
+        width     : 100%;
+        margin-top: 50px;
+    }
+
+    .blog {
+        margin-left: 150px;
+    }
+
+    // about
+
+    .reviews__text {
+        margin-bottom: 22px;
+        margin       : 0 auto;
+        margin-bottom: 20px;
+        width        : 300px;
+    }
+
+    .reviews {
+        text-align: center;
+    }
+
+    // footer
+
+    .footer__top-inner {
+        flex-wrap      : wrap;
+        justify-content: center;
+    }
+
+    .footer__menu {
+        width        : 100%;
+        margin-bottom: 50px;
+    }
+
+    .footer__menu-list {
+        margin    : 0 auto;
+        text-align: center;
+    }
+
+}
+
+
+@media (max-width: 992px) {
+
+
+    // search form
+
+    .search__form {
+        flex-wrap: wrap;
+    }
+
+    .search__form-lable {
+        width        : 100%;
+        margin-bottom: 20px;
+        text-align   : center;
+    }
+
+
+    // popular
+
+
+    .popular__img {
+        width : 280px;
+        height: 280px;
+    }
+
+    // reason
+
+    .reason__inner {
+        flex-wrap: wrap;
+    }
+
+    .reason__item {
+        width        : 100%;
+        margin-bottom: 50px;
+    }
+
+    .reason__title {
+        min-height  : 50px;
+        padding-left: 60px;
+    }
+
+    .reason__title::before {
+        width          : 50px;
+        height         : 50px;
+        background-size: cover;
+        top            : 50%;
+        transform      : translateY(-50%);
+    }
+
+
+    // best
+
+    .best {
+        min-height: 600px;
+    }
+}
+
+@media (max-width: 900px) {
+
+    // about
+
+    .our-managers {
+        margin: 0 auto;
+    }
+
+    .about__inner {
+        display: block;
+    }
+
+    .blog {
+        margin   : 50px auto;
+        max-width: 420px;
+        width    : auto;
+    }
+
+    .reviews {
+        margin   : 0 auto;
+        max-width: 420px;
+    }
+
+    .footer__form {
+        flex-direction: column;
+        margin        : 0 auto;
+    }
+
+    .footer__form-lable {
+        text-align   : center;
+        margin-bottom: 20px;
+        margin-right : 0;
+    }
+
+    .footer__form-input {
+        margin-bottom: 15px;
+        text-align   : center;
+        width        : 300px;
+    }
+
+
+}
+
+
+@media (max-width: 768px) {
+
+
+    // header
+
+    .logo__link-img {
+        max-width: 250px;
+    }
+
+    .header__logo {
+        padding: 40px 0 30px;
+    }
+
+    .menu__list-link {
+        padding: 20px 10px 20px;
+    }
+
+    // slider
+
+    .slider__item {
+        min-height: 500px;
+    }
+
+    // popular
+
+    .popular__item {
+        width: 100%;
+    }
+
+    // best
+
+    .best {
+        min-height: 400px;
+    }
+
+    .footer__top,
+    .about,
+    .reason {
+        padding: 50px 0;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+
+    // header
+
+    .menu__list {
+        display      : block;
+        border-bottom: 1px solid #c4c4c4;
+    }
+
+    .menu__list-item {
+        width        : 100%;
+        border-bottom: 1px solid #c4c4c4;
+    }
+
+    .menu__list-item:first-child,
+    .menu__list-item:last-child {
+        border-left : none;
+        border-right: none;
+    }
+
+    .logo__link-img {
+        max-width: 220px;
+    }
+
+    .menu__list-link {
+        padding: 12px 10px 12px;
+    }
+
+
+    // slider
+
+
+    .slider__item {
+        min-height: 400px;
+    }
+
+
+    // search form
+
+    .search__form-input {
+        width: 65%;
+    }
+
+    .search__form {
+        padding: 0 10px;
+    }
+
+    .slick-btn {
+        display: none !important;
+    }
+
+
+    // popular
+
+    .popular__title {
+        font-size  : 36px;
+        line-height: 40px;
+    }
+
+
+    // reason
+
+    .reason__title {
+        font-size  : 28px;
+        line-height: 32px;
+    }
+
+    .best__title {
+        font-size  : 28px;
+        line-height: 32px;
+    }
+
+
+    // blog
+
+    .blog__link {
+        padding-left: 45px;
+        font-size   : 16px;
+    }
+
+    .about__title {
+        font-size  : 30px;
+        line-height: 40px;
+
+    }
+
+    // footer
+
+    .footer__form-btn {
+        cursor   : pointer;
+        font-size: 16px;
+        padding  : 13px 35px;
+    }
+
+}
+
+
+@media (max-width: 450px) {
+
+
+    // slider
+
+    .search__form-input {
+        width: 100%;
+    }
+
+    .serach__form-btn {
+        width    : 100%;
+        padding  : 13px 23px 13px 36px;
+        font-size: 20px;
+    }
+
+    .serach__form-btn::before {
+        display: none;
+    }
+
+    .slick__arrrow {
+        display: none;
+    }
+
+    .search__form-lable {
+        font-size   : 20px;
+        line-height : 24px;
+        margin-right: 0px;
+    }
+
+    .popular__title {
+        font-size  : 26px;
+        line-height: 30px;
+    }
+
+}
+
+
+@media (max-width: 360px) {
+
+    .reason__title {
+        font-size  : 22px;
+        line-height: 28px;
+    }
+
+}

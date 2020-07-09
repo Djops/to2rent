@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "MADE Outer Sans";
+    src        : url("/app/fonts/RobotoCondensed-Light.woff2") format("woff2"),
+        url("/app/fonts/RobotoCondensed-Light.woff2") format("woff2");
+    font-weight : 300;
+    font-style  : normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "MADE Outer Sans";
+    src        : url("/app/fonts/RobotoCondensed-Light.woff") format("woff"),
+        url("/app/fonts/RobotoCondensed-Light.woff") format("woff");
+    font-weight : 300;
+    font-style  : normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: "RobotoCondensed-Regular";
+    src        : url("/fonts/RobotoCondensed-Regular.woff2") format("woff2"),
+        url("/fonts/RobotoCondensed-Regular.woff") format("woff");
+    font-weight : 400;
+    font-style  : normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family : "PTSerif-Regular ,serif";
+    src         : url("/app/fonts/PTSerif-Regular.ttf") format("truetype");
+    font-weight : 400;
+    font-style  : normal;
+    font-display: swap;
+}
